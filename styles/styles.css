@@ -1,0 +1,97 @@
+/* This will apply all included styles to the header element */
+header {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body {
+
+    font-family: 'Times New Roman', serif;
+    background-color: lightblue; 
+    color: #800080; /* Text color on the background */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Create your own classes below! */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cbbed8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:strong black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.roundcorners {
+    
+        border-radius: 25px;
+        border: 20px solid #ada121;
+        padding: 40px;
+        width: 400 px;
+        height: 190px;
+        text-align: justify;
+}
+
+.roundcorners1 {
+    
+    border-radius: 25px;
+    border: 20px solid #5b21ad;
+    padding: 40px;
+    width: 400 px;
+    height: 190px;
+    text-align: justify;
+}
+
+.roundcorners2 {
+    
+    border-radius: 25px;
+    border: 20px solid #73AD21;
+    padding: 40px;
+    width: 275 px;
+    height: 150 px;
+    text-align: justify;
+}
+
+
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
