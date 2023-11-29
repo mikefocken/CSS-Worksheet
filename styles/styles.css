@@ -58,7 +58,7 @@ li a:hover {
         border-radius: 25px;
         border: 20px solid #ada121;
         padding: 40px;
-        width: 400 px;
+        width: 400px;
         height: 190px;
         text-align: justify;
 }
@@ -68,7 +68,7 @@ li a:hover {
     border-radius: 25px;
     border: 20px solid #5b21ad;
     padding: 40px;
-    width: 400 px;
+    width: 400px;
     height: 190px;
     text-align: justify;
 }
@@ -78,19 +78,15 @@ li a:hover {
     border-radius: 25px;
     border: 20px solid #73AD21;
     padding: 40px;
-    width: 275 px;
-    height: 150 px;
+    width: 400px;
+    height: 150px;
     text-align: justify;
 }
 
 
-
-
-
-
 .flex-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
 }
 
 
